@@ -1,0 +1,7 @@
+// ヒント ファイルは、Visual Studio IDE が Visual C++ 識別子を解釈するのに役立ちます
+// 関数およびマクロの名前などです。
+// 詳細については次を参照してください https://go.microsoft.com/fwlink/?linkid=865984
+#define CONSTANT_ARRAY(type, len)
+#define _In_range_(lb, ub) _SAL2_Source_(_In_range_, (lb,ub), _In_range_impl_(lb,ub))
+#define _In_range_(l, h)
+#define FOR(name, loop) for(int name = 0; name < loop; name++)

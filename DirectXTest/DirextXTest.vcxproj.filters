@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{262c3b68-389c-4441-9a11-e41d7676e86c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{15cb7405-dd40-406e-b811-9b1762646a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application">
+      <UniqueIdentifier>{73dbbac7-729b-4cfc-b25f-388d6b34ddd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Dx12Wrapper">
+      <UniqueIdentifier>{1d11bd86-e9d1-4284-85d6-76664f189b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\PMDActor">
+      <UniqueIdentifier>{812a6ed4-9b3a-4c35-a855-66c6c1022d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\PMDRenderer">
+      <UniqueIdentifier>{a28ac8db-6ceb-4525-aaf8-3947e7347a30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shader\PixelShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\VertexShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\BasicShaderHeader.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\Math.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Common.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Application.cpp">
+      <Filter>Src\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Dx12Wrapper\Dx12Wrapper.cpp">
+      <Filter>Src\Dx12Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PMDActor\PMDActor.cpp">
+      <Filter>Src\PMDActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PMDRenderer\PMDRenderer.cpp">
+      <Filter>Src\PMDRenderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Color.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Common.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Application.h">
+      <Filter>Src\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Dx12Wrapper\Dx12Wrapper.h">
+      <Filter>Src\Dx12Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\PMDActor\PMDActor.h">
+      <Filter>Src\PMDActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\PMDRenderer\PMDRenderer.h">
+      <Filter>Src\PMDRenderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
