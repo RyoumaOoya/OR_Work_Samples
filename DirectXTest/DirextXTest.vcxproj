@@ -43,13 +43,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
@@ -84,7 +84,7 @@
       <DisableSpecificWarnings>26812</DisableSpecificWarnings>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(ProjectDir);$(ProjectDir)\DirectXTex\Bin\Desktop_2022_Win10\$(Platform)\$(Configuration);%(AdditionalIncludeDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir);$(ProjectDir)\DirectXTex\Bin\Desktop_2022\$(Platform)\$(Configuration);%(AdditionalIncludeDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -99,7 +99,7 @@
       <DisableSpecificWarnings>26812</DisableSpecificWarnings>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(ProjectDir);$(ProjectDir)\DirectXTex\Bin\Desktop_2022_Win10\$(Platform)\$(Configuration);%(AdditionalIncludeDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir);$(ProjectDir)\DirectXTex\Bin\Desktop_2022\$(Platform)\$(Configuration);%(AdditionalIncludeDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -118,7 +118,7 @@
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>$(ProjectDir);$(ProjectDir)\DirectXTex\Bin\Desktop_2022_Win10\$(Platform)\$(Configuration);%(AdditionalIncludeDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir);$(ProjectDir)\DirectXTex\Bin\Desktop_2022\$(Platform)\$(Configuration);%(AdditionalIncludeDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -137,7 +137,7 @@
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>$(ProjectDir);$(ProjectDir)\DirectXTex\Bin\Desktop_2022_Win10\$(Platform)\$(Configuration);%(AdditionalIncludeDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir);$(ProjectDir)\DirectXTex\Bin\Desktop_2022\$(Platform)\$(Configuration);%(AdditionalIncludeDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
